@@ -1,0 +1,7 @@
+SELECT * FROM users WHERE name is not null ;
+SELECT * FROM users WHERE name is not null LIMIT 10 ;
+SELECT * FROM orders LIMIT 10 ;
+SELECT * FROM orders WHERE price > 100 ;
+Exception in thread "main" java.lang.IllegalArgumentException: The table must be set
+	at builder.PostgreSqlBuilder.getSql(PostgreSqlBuilder.java:32)
+	at Main.main(Main.java:24)
