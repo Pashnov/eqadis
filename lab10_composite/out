@@ -1,0 +1,28 @@
+Hello world! Composite
+<fieldset>
+<input id=in1/>
+
+<select id=s1></select>
+
+<fieldset>
+<input id=in1_1/>
+
+<input id=in1_2/>
+
+<input id=in1_3/>
+
+<select id=s1_1></select>
+</fieldset>
+
+
+<fieldset>
+<input id=in2_1/>
+
+<select id=s2_1></select>
+
+<select id=s2_2></select>
+
+<select id=s2_2></select>
+</fieldset>
+
+</fieldset>
